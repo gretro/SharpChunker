@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C4CA6F3-B8F5-4130-B05A-8576C58A1391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{464A2425-40F8-4CBB-85E1-689F77980BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpChunker.Core", "src\SharpChunker.Core\SharpChunker.Core.csproj", "{EA7DEED9-0F4E-485E-B395-851A61123F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpChunker.Core.Tests", "tests\SharpChunker.Core.Tests\SharpChunker.Core.Tests.csproj", "{8F604E15-31D3-47D3-97C0-757F77F7926D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpChunker.Json", "src\SharpChunker.Json\SharpChunker.Json.csproj", "{16E43F58-AF24-4FC0-A148-6D7E823E19A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DD20C5DA-13E8-4C61-8030-8DD4052B5130}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpChunker.Json.Tests", "tests\SharpChunker.Json.Tests\SharpChunker.Json.Tests.csproj", "{AEF4375B-D9EA-47C4-9FD2-D5F3399F0CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA7DEED9-0F4E-485E-B395-851A61123F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7DEED9-0F4E-485E-B395-851A61123F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7DEED9-0F4E-485E-B395-851A61123F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7DEED9-0F4E-485E-B395-851A61123F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F604E15-31D3-47D3-97C0-757F77F7926D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F604E15-31D3-47D3-97C0-757F77F7926D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F604E15-31D3-47D3-97C0-757F77F7926D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F604E15-31D3-47D3-97C0-757F77F7926D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E43F58-AF24-4FC0-A148-6D7E823E19A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E43F58-AF24-4FC0-A148-6D7E823E19A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E43F58-AF24-4FC0-A148-6D7E823E19A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E43F58-AF24-4FC0-A148-6D7E823E19A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF4375B-D9EA-47C4-9FD2-D5F3399F0CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF4375B-D9EA-47C4-9FD2-D5F3399F0CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF4375B-D9EA-47C4-9FD2-D5F3399F0CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF4375B-D9EA-47C4-9FD2-D5F3399F0CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA7DEED9-0F4E-485E-B395-851A61123F0C} = {1C4CA6F3-B8F5-4130-B05A-8576C58A1391}
+		{8F604E15-31D3-47D3-97C0-757F77F7926D} = {464A2425-40F8-4CBB-85E1-689F77980BD9}
+		{16E43F58-AF24-4FC0-A148-6D7E823E19A1} = {1C4CA6F3-B8F5-4130-B05A-8576C58A1391}
+		{AEF4375B-D9EA-47C4-9FD2-D5F3399F0CC5} = {464A2425-40F8-4CBB-85E1-689F77980BD9}
+	EndGlobalSection
+EndGlobal
